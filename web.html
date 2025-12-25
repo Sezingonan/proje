@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WEB TASARİMİ">
+    <title>web tasarimi</title>
+<!--arka plana blok acmak icin kullanilir-->
+<!-- class icin . id icin # kullanilir-->
+ <!-- margin-bottom araya bosluk atar-->
+    <style>
+        .divOzellik{
+            width: 100%;
+            height: 50px;
+            background-color: rgb(143, 11, 11);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--yorum satiri-->
+
+    <p>Lorem ipsum dolor sit amet.</p> <!--lorem5 yazarsan 5 kelimelik cümle yazar-->
+
+    <h1>Sezin Gonan</h1>
+    <h2>Sezin Gonan</h2>
+    <h3>Sezin Gonan</h3>
+    <h4>Sezin Gonan</h4>
+    <h5>Sezin Gonan</h5>
+    <h6>Sezin Gonan</h6> <!--kelimelerin büyüklüklerini tanımlar-->
+
+    <hr> <!--çizgi çeker-->
+
+    <br> <!--bir satir bosluk birakir-->
+
+    <p><strong>PARAGRAF</strong></p> <!--strong yaziyi kalinlastirir-->
+    <strong>PARAGRAF</strong> <!--usttekiyle ayni-->
+    <b>PARAGRAF</b>  <!--usttekiyle ayni-->
+
+    <i>PARAGRAF</i> <!--yaziyi italik yapar-->
+    <mark>PARAGRAF</mark> <!--yazinin üstünü fosforluyla cizer-->
+
+    <img src="" alt="" width="" height=""/> <!--resim ekler--> <!--src=kaynak, alt=resim acılmazsa yazilacak yazi, weidt=buyuklugu, height=buyuklugu--> 
+
+    <center>YAZI,RESIM</center> <!--arasindaki her seyi sayfada ortalar-->
+
+    <a href="https:www.google.com" target="_blank">tiklayiniz</a> <!--soldakine URL, ortaki yeni bir sayfada link acmak icin, sagdakine kelime-->
+
+    <ul>
+        <li>secenek1</li>
+        <li>secenek2</li>
+    </ul> <!--sirasiz liste-->
+    <ol type="A">
+        <li>secenek1</li>
+        <li>secenek2</li>
+    </ol> <!--sirali liste type kismi roma rakami,i,sayi ve harf olabilir-->
+
+    <table border="1"> <!--border kalinlik-->
+        <tr>
+            <td> <!--sutun-->
+            </td>
+        </tr> <!--satir-->
+        <th></th> <!--baslik-->
+        <th colspan="3">baslik</th> <!--aradaki cizgileri yok eder, kalinligi ayarlanabilir-->
+        <th rowspam="5">baslik</th> <!--aradaki cizgileri yok eder, kalinligi ayarlanabilir-->
+    </table>
+
+    <span>YAZI</span> <!--yazi kadar yer kaplamasi ıcın kullanilir, blok dolmaz-->
+
+    <div class="divOzellik"></div> <!--arka plana blok halinde renk veya yazı ekler-->
+
+    <form>
+        <input type="text" placeholder="Isminiz"> <!--placeholder arka plana silinmez yazi yazar-->
+        <input type="password" placeholder="Sifreniz"> <!--passsword yazildiginde kullanicinin girdigi yazi gozukmez-->
+        <input type="email" placeholder="email adresi"> <!--email formatini kontrol eder-->
+        <input type="checkbox"> <!--sıklı kutucuklar yapilir orn,checklist-->
+        <input type="radio" name="cinsiyetRadio" checked="true"><!--check icin kullanilir ama seceneklerden sadece biri secilir, checked programin kendisi secer-->
+        <input type="file">
+        <input type="submit" value="gonder">  <!--submit tus icin kullanilir value uzerinde yazilan yazidir-->
+        <input type="reset" value="temizle"> <!--her seyi siler-->
+
+        <textarea name="mesajInput" id="mesajAlani" cols="70" rows="10"></textarea> <!--yazi icin alan acar-->
+
+        <select>
+        <option value="kahve">kahve</option>
+        <option value="cay">cay</option> 
+        </select> <!--secenek sunar-->
+    </form>
+
+    <video width="600" height="400" controls>
+        <source src="videonun URL" type="video/mp4">
+    </video> <!--video eklemek icin kullanilir-->
+
+    <iframe src="URL" width="500" height="800"></iframe> <!--baska siteyi goruntulemeyi saglar-->
+</body>
+</html>
